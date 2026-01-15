@@ -1,7 +1,10 @@
 import { Moon, Sun, Shield } from 'lucide-react'
-import { useThemeContext } from '@/components/theme/ThemeProvider.jsx'
-import { Button } from '@/components/ui/button.jsx'
-import { Separator } from '@/components/ui/separator.jsx'
+import { useThemeContext } from '@/components/theme/ThemeProvider'
+import { Button } from '@/components/ui/button'
+import { Separator } from '@/components/ui/separator'
+
+// ... rest of the file stays the same
+
 
 export default function Header() {
   const { toggleTheme, isDark } = useThemeContext()

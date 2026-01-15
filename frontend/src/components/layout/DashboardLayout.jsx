@@ -1,4 +1,7 @@
-import Header from './Header.jsx'
+import Header from './Header'
+
+// ... rest of the file stays the same
+
 
 export default function DashboardLayout({ children }) {
   return (

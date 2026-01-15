@@ -1,13 +1,16 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Toaster } from 'sonner'
-import { ThemeProvider } from '@/components/theme/ThemeProvider.jsx'
-import DashboardLayout from '@/components/layout/DashboardLayout.jsx'
-import EncryptSection from '@/components/features/EncryptSection.jsx'
-import DecryptSection from '@/components/features/DecryptSection.jsx'
-import ServerSection from '@/components/features/ServerSection.jsx'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs.jsx'
+import { ThemeProvider } from '@/components/theme/ThemeProvider'
+import DashboardLayout from '@/components/layout/DashboardLayout'
+import EncryptSection from '@/components/features/EncryptSection'
+import DecryptSection from '@/components/features/DecryptSection'
+import ServerSection from '@/components/features/ServerSection'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Lock } from 'lucide-react'
+
+// ... rest of the file stays the same
+
 
 export default function App() {
   const [lastServerName, setLastServerName] = useState(null)
